@@ -1,0 +1,24 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "npm content scraper",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "Tech-Degree-Project6"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "Victor Renderos",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "json2csv": "^3.11.5",
+    "moment": "^2.20.1",
+    "request": "^2.83.0"
+  }
+}
